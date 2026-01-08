@@ -91,8 +91,6 @@ public class Warehouse {
 
     //Sort
     public void sortAllProductsByPrice() {
-        System.out.println(">>> CHỨC NĂNG 4: SẮP XẾP TOÀN KHO (GIÁ GIẢM DẦN - THỦ CÔNG)");
-
         // BƯỚC 1: GOM DỮ LIỆU VÀO MẢNG TẠM
         // Kho có tối đa 5 danh mục * 20 sản phẩm = 100 chỗ
         Product[] allProducts = new Product[100];
