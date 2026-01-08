@@ -76,7 +76,7 @@ public class Warehouse {
         // Duyệt qua từng danh mục (0 -> 4)
         for (Category cat : categories) {
             if (cat.removeProductById(id)) {
-                System.out.println("✅ Đã xóa thành công sản phẩm ID " + id + " khỏi danh mục '" + cat.getName() + "'");
+                System.out.println(" Đã xóa thành công sản phẩm ID " + id + " khỏi danh mục '" + cat.getName() + "'");
                 System.out.println("   (Số lượng còn lại trong danh mục: " + cat.getCount() + ")");
                 isDeleted = true;
                 break; // Xóa xong thì thoát vòng lặp ngay, không cần tìm danh mục khác
