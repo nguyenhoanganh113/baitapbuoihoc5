@@ -51,7 +51,9 @@ public class Main {
         // --- CASE 2: KHÔNG TÌM THẤY ---
         warehouse.deleteProduct(999);
 
-
+        System.out.println();
+        System.out.println();
+        System.out.println("---------------CHỨC NĂNG 4: SẮP XẾP TOÀN BỘ KHO HÀNG THEO GIÁ GIẢM DẦN-------------------");
         warehouse.sortAllProductsByPrice();
     }
 }
